@@ -11,6 +11,42 @@
         "buildMultiTargeting": {
           "buildMultiTargeting/Microsoft.AspNetCore.App.Internal.Assets.targets": {}
         }
+      },
+      "IMS.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/IMS.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMS.CoreBusiness.dll": {}
+        }
+      },
+      "IMS.Plugins.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "IMS.UseCases": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IMS.Plugins.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMS.Plugins.InMemory.dll": {}
+        }
+      },
+      "IMS.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "IMS.CoreBusiness": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IMS.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMS.UseCases.dll": {}
+        }
       }
     }
   },
@@ -37,10 +73,28 @@
         "microsoft.aspnetcore.app.internal.assets.10.0.10.nupkg.sha512",
         "microsoft.aspnetcore.app.internal.assets.nuspec"
       ]
+    },
+    "IMS.CoreBusiness/1.0.0": {
+      "type": "project",
+      "path": "../IMS.CoreBusiness/IMS.CoreBusiness.csproj",
+      "msbuildProject": "../IMS.CoreBusiness/IMS.CoreBusiness.csproj"
+    },
+    "IMS.Plugins.InMemory/1.0.0": {
+      "type": "project",
+      "path": "../IMS.Plugins/IMS.Plugins.InMemory/IMS.Plugins.InMemory.csproj",
+      "msbuildProject": "../IMS.Plugins/IMS.Plugins.InMemory/IMS.Plugins.InMemory.csproj"
+    },
+    "IMS.UseCases/1.0.0": {
+      "type": "project",
+      "path": "../IMS.UseCases/IMS.UseCases.csproj",
+      "msbuildProject": "../IMS.UseCases/IMS.UseCases.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "IMS.CoreBusiness >= 1.0.0",
+      "IMS.Plugins.InMemory >= 1.0.0",
+      "IMS.UseCases >= 1.0.0",
       "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.10"
     ]
   },
@@ -76,7 +130,17 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\suber\\Desktop\\BLAZOR\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
+              "projectPath": "C:\\Users\\suber\\Desktop\\BLAZOR\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
+            },
+            "C:\\Users\\suber\\Desktop\\BLAZOR\\IMS\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj": {
+              "projectPath": "C:\\Users\\suber\\Desktop\\BLAZOR\\IMS\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj"
+            },
+            "C:\\Users\\suber\\Desktop\\BLAZOR\\IMS\\IMS.UseCases\\IMS.UseCases.csproj": {
+              "projectPath": "C:\\Users\\suber\\Desktop\\BLAZOR\\IMS\\IMS.UseCases\\IMS.UseCases.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
