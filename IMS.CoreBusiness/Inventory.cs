@@ -1,6 +1,6 @@
 ﻿namespace IMS.CoreBusiness
 {
-    public class Class1
+    public class Inventory
     {
 
     }

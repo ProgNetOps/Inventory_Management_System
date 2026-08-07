@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="IMS.CoreBusiness/IMS.CoreBusiness.csproj" Id="85c8c3d7-6b40-4255-bc34-e52ff54ea897" />
+  <Project Path="IMS.UseCases/IMS.UseCases.csproj" Id="036949ec-cb47-4a4f-a8f5-d1335d349613" />
   <Project Path="IMS.WebApp/IMS.WebApp.csproj" />
 </Solution>
