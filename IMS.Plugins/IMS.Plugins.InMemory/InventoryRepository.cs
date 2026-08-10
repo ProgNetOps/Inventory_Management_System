@@ -22,8 +22,15 @@ public class InventoryRepository : IInventoryRepository
         };
     }
 
-    public Task<IEnumerable<Inventory>> GetInventoriesByNameAsync(string name)
+    public async Task<IEnumerable<Inventory>> GetInventoriesByNameAsync(string name)
     {
-        throw new NotImplementedException();
+        if (string.IsNullOrWhiteSpace(name) is true)
+        {
+            return await Task.FromResult(_inventories);
+        }
+        else
+        {
+            return _inventories.Where(x => x.InventoryName.Contains(name,StringComparison.OrdinalIgnoreCase));
+        }
     }
 }

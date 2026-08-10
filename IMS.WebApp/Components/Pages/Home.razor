@@ -1,7 +1,36 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+@inject IViewInventoriesByNameUseCase ViewInventoriesByNameUseCase
 
-Welcome to your new app.
+<PageTitle>Test Page</PageTitle>
+
+<ul>
+    @if (inventories is not null && inventories.Count > 0)
+    {
+        foreach (var inventory in inventories)
+        {
+            <li>
+                @inventory.InventoryName
+            </li>
+        }
+    }
+</ul>
+
+
+
+
+
+
+
+
+@* Add C# code here; the code can be injected into the html section above *@
+@code{
+    private List<Inventory>? inventories;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //To use the UseCase class here, we need to first inject it into this page
+        inventories = (await ViewInventoriesByNameUseCase.ExecuteAsync()).ToList();
+    }
+}
