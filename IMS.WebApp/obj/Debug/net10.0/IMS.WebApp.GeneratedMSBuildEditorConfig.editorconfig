@@ -27,12 +27,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Controls/InventoryListComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xJbnZlbnRvcnlMaXN0Q29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Controls/InventoryListItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xJbnZlbnRvcnlMaXN0SXRlbUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Pages/Inventories/InventoryList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbnZlbnRvcmllc1xJbnZlbnRvcnlMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Pages/NotFound.razor]
