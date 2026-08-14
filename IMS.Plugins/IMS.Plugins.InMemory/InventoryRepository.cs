@@ -6,7 +6,7 @@ namespace IMS.Plugins.InMemory;
 public class InventoryRepository : IInventoryRepository
 {
     private readonly List<Inventory> _inventories;
-
+  
     public InventoryRepository()
     {
         _inventories = new()
@@ -20,6 +20,23 @@ public class InventoryRepository : IInventoryRepository
             new Inventory{
             InventoryId=4,InventoryName="Bike Pedals",Quantity=20,Price=1}
         };
+    }
+
+    public Task AddInventoryAsync(Inventory inventory)
+    {
+        //Check if the inventory already exists, by name
+        if(_inventories.Any(x => x.InventoryName.Equals(inventory.InventoryName, StringComparison.OrdinalIgnoreCase)))
+        {
+            return Task.CompletedTask;
+        }
+        else
+        {
+            //Get the last Id and increment it to generate an id for the new inventory
+            var maxId = _inventories.Max(x => x.InventoryId);
+            inventory.InventoryId = maxId + 1;
+            _inventories.Add(inventory);
+            return Task.CompletedTask;
+        }
     }
 
     public async Task<IEnumerable<Inventory>> GetInventoriesByNameAsync(string name)
