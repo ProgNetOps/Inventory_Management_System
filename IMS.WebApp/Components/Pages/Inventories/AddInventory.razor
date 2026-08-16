@@ -1,9 +1,13 @@
 ﻿@page "/addinventory"
 
+@inject IAddInventoryUseCase AddInventoryUseCase
+
 <h3>AddInventory</h3>
 <br />
 
 <EditForm Model="inventory" FormName="formInventory" OnValidSubmit="Save">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
 
     <div class="form-group">
         <label for="name">Inventory Name</label>
@@ -37,5 +41,8 @@
     [SupplyParameterFromForm]
     private Inventory inventory { get; set; } = new();
 
-    private void Save(){}
+    private async Task Save()
+    {
+        await AddInventoryUseCase.ExecuteAsync(inventory);
+    }
 }
