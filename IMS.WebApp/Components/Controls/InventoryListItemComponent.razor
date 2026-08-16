@@ -3,7 +3,9 @@
     <tr>
         <td>@Inventory.InventoryName</td>
         <td>@Inventory.Quantity</td>
-        <td>&#8358; @Inventory.Price</td>
+
+        @* HTML entity used for currency type and N2 format specifier for number *@
+        <td>&#8358;@Inventory.Price.ToString("N2")</td>
         <td>
             <button type="button" class="btn btn-light">Edit</button>
         </td>
