@@ -2,6 +2,7 @@
 
 
 @inject IViewInventoriesByNameUseCase ViewInventoriesByNameUseCase
+@inject IEditInventoryUseCase EditInventoryUseCase
 
 <PageTitle>Test Page</PageTitle>
 
@@ -19,17 +20,16 @@
 
 
 
-
-
-
-
-
 @* Add C# code here; the code can be injected into the html section above *@
 @code{
     private List<Inventory>? inventories;
 
     protected override async Task OnInitializedAsync()
     {
+        Inventory inventory = new() { InventoryId = 2, InventoryName = "Bike Body", Quantity = 50, Price = 28 };
+
+        await EditInventoryUseCase.ExecuteAsync(inventory);
+
         //To use the UseCase class here, we need to first inject it into this page
         inventories = (await ViewInventoriesByNameUseCase.ExecuteAsync()).ToList();
     }
