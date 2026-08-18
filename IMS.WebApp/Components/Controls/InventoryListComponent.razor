@@ -7,7 +7,7 @@
             <th>Name</th>
             <th>Quantity</th>
             <th>Price</th>
-            <th></th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -27,9 +27,12 @@
 @code {
     private List<Inventory>? inventories;
 
+    [Parameter]
+    public string? SearchInventoryFilter{ get; set; }
+
     protected override async Task OnInitializedAsync()
     {
         //To use the UseCase class here, we need to first inject it into this page
-        inventories = (await ViewInventoriesByNameUseCase.ExecuteAsync()).ToList();
+        inventories = (await ViewInventoriesByNameUseCase.ExecuteAsync(SearchInventoryFilter??string.Empty)).ToList();
     }
 }
