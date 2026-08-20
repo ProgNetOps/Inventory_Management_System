@@ -30,9 +30,14 @@
     [Parameter]
     public string? SearchInventoryFilter{ get; set; }
 
-    protected override async Task OnInitializedAsync()
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     //To use the UseCase class here, we need to first inject it into this page
+    //     inventories = (await ViewInventoriesByNameUseCase.ExecuteAsync(SearchInventoryFilter??string.Empty)).ToList();
+    // }
+
+    protected override async Task OnParametersSetAsync()
     {
-        //To use the UseCase class here, we need to first inject it into this page
-        inventories = (await ViewInventoriesByNameUseCase.ExecuteAsync(SearchInventoryFilter??string.Empty)).ToList();
+        inventories = (await ViewInventoriesByNameUseCase.ExecuteAsync(SearchInventoryFilter ?? string.Empty)).ToList();
     }
 }

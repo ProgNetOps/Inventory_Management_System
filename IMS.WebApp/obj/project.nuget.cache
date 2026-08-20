@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2Gx00+/aZvo=",
+  "dgSpecHash": "ozOEUJFkTvc=",
   "success": true,
   "projectFilePath": "C:\\Users\\suber\\Desktop\\BLAZOR\\IMS\\IMS.WebApp\\IMS.WebApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\suber\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.10\\microsoft.aspnetcore.app.internal.assets.10.0.10.nupkg.sha512"
+    "C:\\Users\\suber\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.11\\microsoft.aspnetcore.app.internal.assets.10.0.11.nupkg.sha512"
   ],
   "logs": []
 }

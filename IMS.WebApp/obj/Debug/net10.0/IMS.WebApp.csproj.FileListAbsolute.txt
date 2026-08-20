@@ -75,8 +75,6 @@ C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\compressed\qva21z
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\compressed\2r6wm4e2i4-{0}-h1s4sie4z3-h1s4sie4z3.gz
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\compressed\yqfdjjy8ny-{0}-63fj8s7r0e-63fj8s7r0e.gz
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\compressed\ccxxruu0ms-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\compressed\lnpu9mj92l-{0}-f7fxoh55ae-f7fxoh55ae.gz
-C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\compressed\5c8dn61s43-{0}-68qhiysw0j-68qhiysw0j.gz
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\compressed\vwrbihz9dj-{0}-ire58bx2th-ire58bx2th.gz
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\compressed\1tk3lxi5s3-{0}-ire58bx2th-ire58bx2th.gz
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\staticwebassets.build.json
@@ -91,3 +89,5 @@ C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\refint\IMS.WebApp
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\IMS.WebApp.pdb
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\IMS.WebApp.genruntimeconfig.cache
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\ref\IMS.WebApp.dll
+C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\compressed\lnpu9mj92l-{0}-wyu7y4jcvb-wyu7y4jcvb.gz
+C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\obj\Debug\net10.0\compressed\5c8dn61s43-{0}-wfr2hj6447-wfr2hj6447.gz

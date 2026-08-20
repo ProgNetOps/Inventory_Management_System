@@ -1,5 +1,5 @@
-C:\Users\suber\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.10\build\..\_framework\blazor.server.js
-C:\Users\suber\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.10\build\..\_framework\blazor.web.js
+C:\Users\suber\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\build\..\_framework\blazor.server.js
+C:\Users\suber\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\build\..\_framework\blazor.web.js
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
@@ -10,7 +10,7 @@ C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\boot
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-C:\Users\suber\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.10\_framework\blazor.server.js
+C:\Users\suber\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\_framework\blazor.server.js
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -25,7 +25,7 @@ C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\boot
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-C:\Users\suber\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.10\_framework\blazor.web.js
+C:\Users\suber\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.11\_framework\blazor.web.js
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 C:\Users\suber\Desktop\BLAZOR\IMS\IMS.WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
