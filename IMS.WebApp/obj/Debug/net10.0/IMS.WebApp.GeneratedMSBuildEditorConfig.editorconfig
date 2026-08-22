@@ -35,6 +35,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xJbnZlbnRvcnlMaXN0SXRlbUNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Controls/ProductListComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xQcm9kdWN0TGlzdENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Controls/ProductListItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xQcm9kdWN0TGlzdEl0ZW1Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Controls/SearchComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sc1xTZWFyY2hDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -61,6 +69,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Pages/Products/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0c1xQcm9kdWN0TGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/suber/Desktop/BLAZOR/IMS/IMS.WebApp/Components/Pages/Weather.razor]

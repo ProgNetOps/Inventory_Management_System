@@ -12,13 +12,9 @@ public class ProductRepository : IProductRepository
         _products = new()
         {
             new Product{
-            ProductId=1,ProductName="Bike Seat",Quantity=10,Price=2},
+            ProductId=1,ProductName="Bike",Quantity=15,Price=29},
             new Product{
-            ProductId=2,ProductName="Bike Body",Quantity=10,Price=15},
-            new Product{
-            ProductId=3,ProductName="Bike Wheels",Quantity=20,Price=8},
-            new Product{
-            ProductId=4,ProductName="Bike Pedals",Quantity=20,Price=1}
+            ProductId=2,ProductName="Car",Quantity=50,Price=150}
         };
     }
 
@@ -50,7 +46,7 @@ public class ProductRepository : IProductRepository
         return Task.CompletedTask;
     }
 
-    public async Task<IEnumerable<Product>> GetproductsByNameAsync(string name)
+    public async Task<IEnumerable<Product>> GetProductsByNameAsync(string name)
     {
         if (string.IsNullOrWhiteSpace(name) is true)
         {

@@ -1,0 +1,43 @@
+﻿@inject IViewProductsByNameUseCase ViewProductsByNameUseCase
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(products is not null && products.Count > 0)
+        {
+            foreach (var inv in products)
+            {
+               <ProductListItemComponent Product="inv"/>
+            }
+        }
+    </tbody>
+</table>
+
+
+
+
+@code {
+    private List<Product>? products;
+
+    [Parameter]
+    public string? SearchProductFilter{ get; set; }
+
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     //To use the UseCase class here, we need to first inject it into this page
+    //     products = (await ViewProductsByNameUseCase.ExecuteAsync(SearchProductFilter??string.Empty)).ToList();
+    // }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        products = (await ViewProductsByNameUseCase.ExecuteAsync(SearchProductFilter ?? string.Empty)).ToList();
+    }
+}
